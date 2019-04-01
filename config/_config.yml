@@ -15,7 +15,14 @@
 # in the templates via {{ site.myvariable }}.
 title: Mannebacherkäse
 email: hallo@mannebacherkaese.com
-description: We are a goats farm in Kümmern, on the hills of Mannebach. We put together natural farming with our heritage of Italian cheese-making. The result is a variety of cheese of which we are very fond and we hope one day you'll love them too.
+address: |-\n
+  Brunnenstr. 1
+  54441, Kümmern, Mannebach
+  Germany
+telephone: +352 661 335 842
+facebook: "https://www.facebook.com/MannebacherZiegen/"
+instagram: "https://www.instagram.com/mannebacherziegen/?hl=en"
+description: We are a goats farm in Kümmern, on the hills of Mannebach. We put together natural farming and our heritage of Italian cheese-making. The result is a variety of cheese of which we are very fond and we hope one day you'll love them too.
 baseurl: "/mannebacherkaese" # the subpath of your site, e.g. /blog
 url: "https://mannebacherkaese.com" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/img/MannerKaese-logo.png"
