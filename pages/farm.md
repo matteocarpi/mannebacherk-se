@@ -2,6 +2,10 @@
 layout: farm
 permalink: /the-farm
 title: The Farm
+title-slide:   
+  - title: The Farm
+    photo: /assets/img/goats-in-field.jpg
+    intro: In our farm we make an effort to respect nature's rythms. We have a livestock of 80 goats, 2 billygoats and a dog. The well being of our animals is our number 1 priority. From a healthy animal comes a first quality product. This is the reason why we make sure that they only eat natural fodder, that they spend as much time as possible outdoors and that even inside the stable they have a cosy space.
 fodder:
   image:
   description: Our attention to fodder is our first priority. From fodder depends the health of the animals and as a consequence of it the quality of the milk. Our goats eat what they choose from the fields, top quality selected hay and small quantities of organic cereals. In some farms, goats are fed a large amount of cereals and supplements, that they are not made to digest, in order to enhance the quantity of the milk and its fat content. In our stable we try as much as possible to mantain a healty balance and diet, looking to imitate what they would normally eat in wilderness.

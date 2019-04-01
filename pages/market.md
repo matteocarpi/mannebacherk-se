@@ -14,7 +14,7 @@ markets:
     times:
       - Thursday - 8am till 1pm
   - name: Mannebach
-    address: |-\n
+    address: |-
       Im Reid
       54441 Mannebach
     times:

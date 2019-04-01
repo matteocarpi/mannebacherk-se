@@ -23,7 +23,7 @@ layout: default
   <p>{{ item.intro }}</p>
 
   {% if more == true %}
-  <a class="cta {% if item.title == "The Cheese Laboratory" blue {% endif %} }" href="/the-farm">READ MORE</a>
+  <a class="cta {% if item.title == "The Cheese Laboratory" %} blue {% endif %} }" href="/the-farm">READ MORE</a>
   {% endif %}
 </div>
 {% endfor %}

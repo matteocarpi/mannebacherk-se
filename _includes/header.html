@@ -9,7 +9,7 @@
         <a href="{{ item.link }}">{{ item.name }}</a>
       </li>
 
-      {% endfor}
+      {% endfor %}
     </ul>
   </nav>
 
@@ -19,7 +19,7 @@
     <i id="quit" class="material-icons" onclick="quit()">clear</i>
 
     <div id="links">
-      {‰ for item in site.data.navigation %}
+      {% for item in site.data.navigation %}
 
       <a class="menu-item" href="{{ item.link }}">{{ item.name }}</a>
 
