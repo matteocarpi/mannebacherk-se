@@ -1,0 +1,30 @@
+<div id="header">
+  <img class="logo-small" src="{{ site.logo }}" alt="">
+
+  <nav class="navigation-desktop">
+    <ul>
+      {% for item in site.data.navigation %}
+
+      <li>
+        <a href="{{ item.link }}">{{ item.name }}</a>
+      </li>
+
+      {% endfor}
+    </ul>
+  </nav>
+
+  <div id="mobile-menu">
+
+    <i id="burger" class="material-icons" onclick="burger()">menu</i>
+    <i id="quit" class="material-icons" onclick="quit()">clear</i>
+
+    <div id="links">
+      {‰ for item in site.data.navigation %}
+
+      <a class="menu-item" href="{{ item.link }}">{{ item.name }}</a>
+
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
