@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<p>porcamadonna</p>
+<div class="slide" style="background-image: url({{ page.title-slide.photo }})">
+  <h1 class="white">{{ page.title-slide.title }}</h1>
+</div>
+
+<div class="intro">
+  <p>{{ page.title-slide.intro }}</p>
+</div>
+
+{% for item in page.areas %}
+<div class="slide" style="background-image: url({{ item.image }})">
+  <h1 class="white">{{ item.title }}</h1>
+</div>
+<div class="intro">
+  <p>{{ item.description }}</p>
+</div>
+
+<div class="sub-area">
+  {% for item in item.list %}
+  <h1 class="blue">{{ item.name }}</h1>
+  <img class="small-square"src="{{ item.image }}" alt="">
+  <p>{{ item.description }}</p>
+  {% endfor %}
+</div>
+{% endfor %}
