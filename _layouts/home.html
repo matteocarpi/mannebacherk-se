@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<div class="title-home">
+</div>
+
+<img src="{{ site.logo }}" alt="">
+
+<div class="intro">
+  <p>{{ site.description }}</p>
+</div>
+
+<div class="video">
+  <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FMannebacherZiegen%2Fvideos%2F1799822256791841%2F&show_text=0&width=560" width="560" height="233" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+</div>
+
+{% for item in page.sections %}
+<div class="slide" style="background-image: url({{ item.photo }})">
+  <h1 class="white">{{ item.title }}</h1>
+</div>
+
+<div class="intro">
+  <p>{{ item.intro }}</p>
+
+  {% if more == true %}
+  <a class="cta {% if item.title == "The Cheese Laboratory" blue {% endif %} }" href="/the-farm">READ MORE</a>
+  {% endif %}
+</div>
+{% endfor %}
+
+<div id="contacts">
+
+  <div id="address">
+    <p>{{ site.address }}</p>
+  </div>
+
+  <div id="contact-details">
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <span>{{ site.telephone }}</span>
+    <div id="social">
+      <a href="{{ site.facebook }}" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="{{ site.instagram }}"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+</div>
