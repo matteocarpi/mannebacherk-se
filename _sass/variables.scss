@@ -1,0 +1,26 @@
+// Colors
+
+$white: #E8E5C2;
+$red: #8A3A3D;
+$blue: #2F637F;
+
+
+// Fonts
+@font-face {
+  font-family: "Campton-Medium";
+  src: url("/assets/fonts/Campton Medium.otf");
+}
+
+@font-face {
+  font-family: "Campton-Bold";
+  src: url("/assets/fonts/Campton Bold.otf");
+}
+
+@font-face {
+  font-family: "Campton-Black";
+  src: url("/assets/fonts/Campton Black.otf");
+}
+
+$Medium: Campton-Medium, Helvetica, sans-serif;
+$Bold: Campton-Bold, Helvetica, sans-serif;
+$Black: Campton-Black, Helvetica, sans-serif;
