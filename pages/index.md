@@ -6,10 +6,13 @@ image: /assets/img/cheese-home-title.jpg
 sections:
   - title: The Farm
     photo: /assets/img/goats-in-field.jpg
-    intro: In our farm we make an effort to respect nature's rythms. We have a livestock of 80 goats, 2 billygoats and a dog. The well being of our animals is our number 1 priority. From a healthy animal comes a first quality product. This is the reason why we make sure that they only eat natural fodder, that they spend as much time as possible outdoors and that even inside the stable they have a cosy space.
+    intro: |-
+      In our farm we make an effort to respect nature's rythms. We have a livestock of 80 goats, 2 billygoats and a dog. The well being of our animals is our number 1 priority.
+
+      From a healthy animal comes a first quality product. This is the reason why we make sure that they only eat natural fodder, that they spend as much time as possible outdoors and that even inside the stable they have a cosy space.
     more: true
-  - title: The Cheese Laboratory
-    photo: /assets/img/cheese-toma.png
+  - title: The Cheese Lab
+    photo: /assets/img/cheese-toma.jpg
     intro: The art of cheesemaking is an infinite universe and there is always something new to learn. We take a lot of inspiration from the Italian cheesmaking tradition. In crafting our cheese we look for semplicity and authenticity that leave space to the excellence of the raw material we use. Our offer of dairy products varies from the freshest and delicate cream cheeses to older cheeses with sharper flavours.
     more: true
   - title: Community

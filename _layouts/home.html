@@ -10,26 +10,26 @@ layout: default
   {{ site.description | markdownify }}
 </div>
 
-<div class="video">
-  <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FMannebacherZiegen%2Fvideos%2F1799822256791841%2F&show_text=0&width=560" width="560" height="233" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-</div>
+
+  <div id="fb-root"></div>
+<script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v3.2"></script><div class="fb-video" data-href="https://www.facebook.com/MannebacherZiegen/videos/1799822256791841/"><blockquote cite="https://www.facebook.com/MannebacherZiegen/videos/1799822256791841/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MannebacherZiegen/videos/1799822256791841/">Ein Tag am Hof mit &#064;MannebacherZiegen</a><p>Ein typische Tag am Hof für die MannebacherZiegen #ziegen #käse</p>Posted by <a href="https://www.facebook.com/MannebacherZiegen/">Mannebacher Käse</a> on Friday, September 14, 2018</blockquote></div>
 
 {% for item in page.sections %}
 <div class="slide" style="background-image: url({{ item.photo }})">
   <h1 class="white">{{ item.title }}</h1>
 </div>
 
-<div class="intro">
-  <p>{{ item.intro }}</p>
+<div class="preview">
+  {{ item.intro | markdownify }}
 
-  {% if more == true %}
-  <a class="cta {% if item.title == "The Cheese Laboratory" %} blue {% endif %} }" href="/the-farm">READ MORE</a>
+  {% if item.more == true %}
+  <a class="cta {% if item.title == "The Cheese Lab" %} blue-background {% endif %}" href="/the-farm">READ MORE</a>
   {% endif %}
 </div>
 {% endfor %}
 
-<div id="contacts">
-
+<div id="contacts" class="blue-background">
+  <h1 class="white">Contacts</h1>
   <div id="address">
     <p>{{ site.address }}</p>
   </div>

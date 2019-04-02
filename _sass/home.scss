@@ -1,6 +1,27 @@
 .slide.home {
-    background-image: url(/assets/img/cheese-home-title.jpg);
+  background: center / cover no-repeat url("/assets/img/cheese-home-title.jpg")
 }
-.video {
-  max-width: 80%;
+.fb-video {
+  margin-bottom: 2rem;
+}
+#contacts {
+ * {
+   color: $white;
+ }
+ display: flex;
+ flex-wrap: wrap;
+ p {
+   text-align: center;
+ }
+ h1 {
+   margin: 1rem auto;
+ }
+}
+#contact-details {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 10rem;
 }
