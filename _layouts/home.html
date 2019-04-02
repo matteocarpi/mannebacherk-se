@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<div class="slide home" style="background: url({{ page.image }})">
+<div class="slide home">
 </div>
 
-<img src="{{ site.logo }}" alt="">
+<h1 class="blue">What do we do?</h1>
 
 <div class="intro">
-  <p>{{ site.description }}</p>
+  {{ site.description | markdownify }}
 </div>
 
 <div class="video">
