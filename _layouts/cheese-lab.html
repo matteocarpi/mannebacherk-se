@@ -5,4 +5,27 @@ layout: page
 <div id="product-slide">
   <h1 class="white">{{ item.name }}</h1>
 </div>
+
+<div id="product-gallery">
+  {% for item in item.gallery %}
+  <img id="product-image" src="{{ item }}" alt="">
+  {% endfor %}
+</div>
+
+<div id="product-details">
+
+  <div id="ingredients">
+    <h2 class="blue">Ingredients</h2>
+    <ul>
+      {% for item in item.ingredents %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div id="description">
+    <h2 class="blue">Description</h2>
+    <p>{{ item.description }}</p>
+  </div>
+</div>
 {% endfor %}
