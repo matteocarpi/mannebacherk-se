@@ -2,7 +2,21 @@
 layout: default
 ---
 <div class="slide" style="background-image: url({{ page.image }})">
-  <h1 class="white">{{ page.title }}</h1>
+  <h1 class="
+  {% if page.title == 'The Farm' %}
+  
+  white
+  
+  {% elseif page.title == 'The Cheese Laboratory' %}
+  
+  blue
+  
+  {% elseif page.title == 'Market' %}
+  
+  red
+  
+  {% endif %}
+  ">{{ page.title }}</h1>
 </div>
 <div class="intro">
   <p>{{ page.intro }}</p>
