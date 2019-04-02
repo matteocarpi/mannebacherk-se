@@ -1,0 +1,30 @@
+// Colors
+.red {
+  color: $red;
+}
+.blue {
+  color: $blue;
+}
+.white {
+  color: $white
+}
+.red-background {
+  background-color: $red;
+}
+.blue-background {
+  background-color: $blue;
+}
+
+// Global Elements
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $white;
+}
+
+// Custom Elements
+.cta {
+  background-color: red;
+  text-transform: uppercase;
+  color: $white;
+}

@@ -5,9 +5,7 @@
   right: 0;
   top: 0;
   color: white;
-  background: linear-gradient(
-      $gred, $gyellow
-),;
+  background: $blue;
   font-size: 32px;
   padding: 16px 16px 32px 32px;
   border-radius: 0% 0% 0% 100%;
@@ -40,4 +38,9 @@
   font-family: 'Roboto';
   z-index: 10;
   padding: 1rem 0;
+}
+
+// Desktop
+#navigation-desktop {
+  display: flex;
 }
