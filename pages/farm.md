@@ -2,10 +2,8 @@
 layout: farm
 permalink: /the-farm
 title: The Farm
-title-slide:   
-  title: The Farm
-  photo: /assets/img/goats-in-field.jpg
-  intro: In our farm we make an effort to respect nature's rythms. We have a livestock of 80 goats, 2 billygoats and a dog. The well being of our animals is our number 1 priority. From a healthy animal comes a first quality product. This is the reason why we make sure that they only eat natural fodder, that they spend as much time as possible outdoors and that even inside the stable they have a cosy space.
+image: /assets/img/goats-in-field.jpg
+intro: In our farm we make an effort to respect nature's rythms. We have a livestock of 80 goats, 2 billygoats and a dog. The well being of our animals is our number 1 priority. From a healthy animal comes a first quality product. This is the reason why we make sure that they only eat natural fodder, that they spend as much time as possible outdoors and that even inside the stable they have a cosy space.
 areas:
   - title: Fodder
     image: /assets/img/goats-eat.jpg
