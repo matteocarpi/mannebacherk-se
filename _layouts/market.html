@@ -1,0 +1,18 @@
+---
+layout: page
+---
+<div id="markets">
+
+{% for item in page.markets %}
+<h3 class="red">{{ item.name }}</h3>
+<p><strong>{{ item.address }}</strong></p>
+<ul>
+{% for item in item.times %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+{% endfor %}
+</div>
+
+<p>{{ page.come-visit }}</p>
+<a class="button red-background"href="/#contacts">Contact Us</a>
