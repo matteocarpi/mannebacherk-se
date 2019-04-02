@@ -2,6 +2,7 @@
 layout: home
 title: Home
 permalink: /
+image: /assets/img/cheese-home-title.jpg
 sections:
   - title: The Farm
     photo: /assets/img/goats-in-field.jpg
