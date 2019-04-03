@@ -6,12 +6,6 @@ layout: page
   <h1 class="blue">{{ item.name }}</h1>
 </div>
 
-<div class="product-gallery">
-  {% for item in item.gallery %}
-  <img class="product-image" src="{{ item }}" alt="">
-  {% endfor %}
-</div>
-
 <div class="product-details">
 
   <div class="ingredients">
@@ -27,5 +21,11 @@ layout: page
     <h2 class="red">Description</h2>
     <p>{{ item.description }}</p>
   </div>
+</div>
+
+<div class="product-gallery">
+  {% for item in item.gallery %}
+  <img class="product-image" src="{{ item }}" alt="">
+  {% endfor %}
 </div>
 {% endfor %}

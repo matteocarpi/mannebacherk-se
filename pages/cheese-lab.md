@@ -8,6 +8,7 @@ products:
   - name: Yoghurt
     image: "/assets/img/products/youghurt-main.jpg"
     gallery:
+      - "/assets/img/products/youghurt-main.jpg"
     ingredients:
       - Goats Milk
       - Lactic Ferments

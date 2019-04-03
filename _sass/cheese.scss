@@ -1,6 +1,6 @@
 div.product-slide {
   width: 100%;
-  min-height: 30%;
+  min-height: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,7 +8,10 @@ div.product-slide {
   background-size: cover !important;
 }
 .product-details {
-    padding: 0 1rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  min-width: 70%;
 }
 li.ingredient {
   color: $grey;
@@ -16,6 +19,7 @@ li.ingredient {
   line-height: 2;
 }
 .product-gallery {
+  margin: 2rem 0;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -25,5 +29,7 @@ img.product-image {
   height: 300px;
   object-fit: cover;
   object-position: center;
-  margin: 1rem 0;
+  margin: 1rem;
+  border: solid 15px $red;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
