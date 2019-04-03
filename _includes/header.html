@@ -2,15 +2,16 @@
 <a href="/"><img class="logo-small" src="{{ site.logo }}" alt=""></a>
 
   <nav id="navigation-desktop">
-    <ul>
       {% for item in site.data.navigation %}
 
-      <li>
-        <a href="{{ item.link }}">{{ item.name }}</a>
-      </li>
+        <a
+        {% if item.link == page.url %}
+          class="active"
+        {% endif %}
+
+        href="{{ item.link }}">{{ item.name }}</a>
 
       {% endfor %}
-    </ul>
   </nav>
 
   <div id="mobile-menu">

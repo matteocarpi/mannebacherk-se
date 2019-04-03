@@ -7,9 +7,9 @@ sections:
   - title: The Farm
     photo: /assets/img/goats-in-field.jpg
     intro: |-
-      In our farm we make an effort to respect nature's rythms. We have a livestock of 80 goats, 2 billygoats and a dog. The well being of our animals is our number 1 priority.
+      In our farm we make an effort to respect the rythms of the earth. We have a livestock of 80 goats, 2 billygoats and a dog. The well being of our animals is our number 1 priority.
 
-      From a healthy animal comes a first quality product. This is the reason why we make sure that they only eat natural fodder, that they spend as much time as possible outdoors and that even inside the stable they have a cosy space.
+      From a healthy animal comes a first quality product. This is the reason why we make sure that they only eat natural fodder, they are not milked for about a month a year, that they spend as much time as possible outdoors and that even inside the stable they have a cosy space.
     more: true
   - title: The Cheese Lab
     photo: /assets/img/cheese-toma.jpg

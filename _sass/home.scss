@@ -5,11 +5,17 @@
   margin-bottom: 2rem;
 }
 #contacts {
+  width: 100%;
  * {
    color: $white;
  }
- display: flex;
- flex-wrap: wrap;
+ .contact-in-wrap {
+   margin: 4rem auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   max-width: 1000px;
+ }
  p {
    text-align: center;
  }
@@ -18,7 +24,6 @@
  }
 }
 #contact-details {
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,7 +31,14 @@
   height: 10rem;
 }
 div#welcome {
-    margin-top: 2rem;
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.facebook-video-wrap {
+  margin: 0 auto;
+  width: 50%;
 }
 #contacts {
   padding: 2rem 1rem;
