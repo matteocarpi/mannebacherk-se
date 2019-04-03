@@ -5,17 +5,21 @@ layout: page
 
 {% for item in page.markets %}
 <div id="market">
+  <i class="fas fa-store-alt"></i>
   <h2 class="red">{{ item.name }}</h2>
   <h3>{{ item.address }}</h3>
-  <ul>
+  <div id="market-dates">
   {% for item in item.times %}
-  <li>{{ item }}</li>
+  {{ item | markdownify }}
   {% endfor %}
-  </ul>
+</div>
 </div>
 {% endfor %}
 
 </div>
-<img class="logo-small" src="{{ site.logo }}" alt="">
-<p>{{ page.come-visit }}</p>
-<a class="cta red-background"href="/#contacts">Contact Us</a>
+
+<div id="visit-us" class="">
+  <img class="logo-small" src="{{ site.logo }}" alt="">
+  <p>{{ page.come-visit }}</p>
+  <a class="cta red-background"href="/#contacts">Contact Us</a>
+</div>

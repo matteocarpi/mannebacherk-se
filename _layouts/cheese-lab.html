@@ -2,7 +2,7 @@
 layout: page
 ---
 {% for item in page.products %}
-<div class="product-slide" style="background: url({{ item.image }})">
+<div id="{{ item.name }}" class="product-slide" style="background: url({{ item.image }})">
   <h1 class="blue">{{ item.name }}</h1>
 </div>
 

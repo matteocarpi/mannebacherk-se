@@ -17,6 +17,21 @@ layout: default
 
   {% endif %}
   ">{{ page.title }}</h1>
+
+    {% if page.url == "/cheese-laboratory" %}
+
+      <div id="cheese-navigator" class="" >
+        
+        {% for item in page.products %}
+
+          <a href="{{ page.url }}/#{{ item.name }}">{{ item.name }}</a>
+
+        {% endfor %}
+
+    {% endif %}
+
+  </div>
+
 </div>
 <div class="intro">
   <p>{{ page.intro }}</p>

@@ -33,3 +33,28 @@ img.product-image {
   border: solid 15px $red;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
+#cheese-navigator {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+  max-width: 1000px;
+  a {
+    text-transform: uppercase;
+    font: 100% Campton-Bold;
+    color: $blue;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    white-space: nowrap;
+    border: solid 2px $blue;
+    margin-bottom: 2rem;
+  }
+}
+li.cheese-navigator {
+  text-transform: uppercase;
+  font: 90% Campton-Bold;
+  color: $blue;
+}
+li.no-style-list.cheese-navigator {
+  list-style: none;
+}
