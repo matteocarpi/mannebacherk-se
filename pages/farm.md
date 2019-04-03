@@ -11,7 +11,7 @@ areas:
     list:
       - name: HAY
         description: In winter, hay is the first source of nutrition for goats. The hay we use is a "second cut" made by a local farmer. Characteristic of second cut hay is its freshness, green color and strong herbal smells. Goats are extremely greedy for this kind of grass, as supposed to cows and horses that prefer the first cut, dryer and thicker.
-        image: /assets/img/hay.jpg
+        image: /assets/img/hay-square.jpg
       - name: Pastures
         description: In the good season our goats spend most of their days in the open fields. The frash air, the sun and the fresh grass and herbs they find around have an extreme effect on their health. When goats are regularly in the fields their fur is visibly healthier, they are more relaxed and their milk is of a more delicate and higher quality. The fields where our goats roam around are left in their wild state. They are not treated with chemicals and they only grow a variety of spontaneus weeds.
         image: /assets/img/pasteures.png
