@@ -28,7 +28,7 @@ description: |-
   The result is a variety of cheese of which we are very fond and we hope one day you'll love them too.
 url: "https://mannebacherkaese.com" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/img/MannerKaese-logo.png"
-
+logo-icon: "/assets/img/MannerKase-logo-icon.png"
 # Build settings
 markdown: kramdown
 theme: minima

@@ -1,0 +1,9 @@
+div#markets {
+    display: flex;
+    flex-wrap: wrap;
+}
+div#market {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -19,9 +19,10 @@
     <i id="quit" class="material-icons" onclick="quit()">clear</i>
 
     <div id="links">
+      <img class="logo-icon" src="{{ site.logo-icon }}" alt="">
       {% for item in site.data.navigation %}
 
-      <a class="menu-item" href="{{ item.link }}">{{ item.name }}</a>
+      <a id="menu-item" href="{{ item.link }}" onclick="quit()">{{ item.name }}</a>
 
       {% endfor %}
     </div>

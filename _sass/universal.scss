@@ -17,7 +17,7 @@
 
 // Global Elements and Containers
 * {
-  font: 100% Campton-Medium;
+  font: 100% Campton-Book;
 }
 body {
   margin: 0;
@@ -42,15 +42,15 @@ h1 {
 }
 p {
   padding: 0 1rem;
-  font: 100% Campton-Medium;
+  font: 100% Campton-Book;
   color: $grey;
   font-size: 20px;
   text-align: justify;
 }
 .intro {
   p {
-    font-family: Campton-Medium;
-    font-size: 25px;
+    font-family: Campton-Book;
+    font-size: 20px;
     text-align: center;
     color: $grey;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.50);
