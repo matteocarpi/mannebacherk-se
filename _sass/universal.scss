@@ -40,6 +40,11 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0,0,0,0.50);
   margin: 1rem;
 }
+h2 {
+  font: 100% Campton-Bold;
+  font-size: 30px;
+  text-transform: none;
+}
 p {
   padding: 0 1rem;
   font: 100% Campton-Book;
@@ -58,6 +63,9 @@ p {
 }
 a, span {
   font-size: 20px;
+}
+i {
+  text-align: center;
 }
 .fab {
   font-size: 30px;

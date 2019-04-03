@@ -1,1 +1,22 @@
-
+.sub-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.intro.farm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  p {
+  color: #616161;
+  font-size: 20px;
+  text-align: justify;
+  text-shadow: none;
+  }
+}
+i.farm {
+  font-size: 60px;
+  margin-top: -4.4rem;
+  color: $white;
+}
