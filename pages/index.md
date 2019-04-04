@@ -23,11 +23,10 @@ sections:
   photo: "/assets/img/mannebach-landscape.jpg"
   intro: 'The role of the community of Mannebach and Kūmmern has been and keeps beeing
     of fundamental importance for the success of our project. Through the years, there
-    have been many people that helped us and with whom we have developed friendships
-    and for us this i all that matters: when the local community recognises our effort
+    have been many people that helped us and with whom we have developed friendships.
+    This is all that matters to us: when the local community recognises our effort
     and passion, we are satisfied. Particularly, we owe our thoughts and gratitude
     to Peter Büdinger, that unfortunately is not with us anymore. Since way before
-    the project started Peter followed and helped us in every step. Still today Peter''s
-    family lets us use his cheese laboratory.'
+    the project started Peter and his family followed and helped us in every step.'
 
 ---
