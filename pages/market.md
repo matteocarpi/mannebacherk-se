@@ -9,9 +9,9 @@ markets:
     address: Viehmarktplatz
     times:
       - Tuesday & Friday - 7am till 2pm
-      - Wednesday - 2pm till 7pm
-  - name: Traben-Trarbach
-    address: Markt
+      - Wednesday - 4pm till 8pm
+  - name: Traben Trarbach
+    address: Am Bahnhof
     times:
       - Thursday - 8am till 1pm
   - name: Mannebach
