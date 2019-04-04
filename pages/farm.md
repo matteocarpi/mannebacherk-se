@@ -28,12 +28,11 @@ areas:
     image: "/assets/img/hay-square.jpg"
   - name: Pastures
     description: In the good season our goats spend most of their days in the open
-      fields. The frash air, the sun and the fresh grass and herbs they find around
+      fields. The fresh air, the sun and the fresh grass and herbs they find around
       have an extreme effect on their health. When goats are regularly in the fields
       their fur is visibly healthier, they are more relaxed and their milk is of a
       more delicate and higher quality. The fields where our goats roam around are
-      left in their wild state. They are not treated with chemicals and they only
-      grow a variety of spontaneus weeds.
+      left in their wild state, fertilized by the manure of the goats.
     image: "/assets/img/pasteures.png"
   - name: Cereals
     description: The cereals our goats eat are produced by a regional Bio Land farm.
