@@ -22,7 +22,7 @@ areas:
   - name: Hay
     description: In winter, hay is the first source of nutrition for goats. The hay
       we use is a "second cut" made by a local farmer. Characteristic of second cut
-      hay is its freshness, green color and strong herbal smells. Goats are extremely
+      hay is its freshness, green color and strong herbal parfumes. Goats are extremely
       greedy for this kind of grass, as supposed to cows and horses that prefer the
       first cut, dryer and thicker.
     image: "/assets/img/hay-square.jpg"
