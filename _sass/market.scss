@@ -11,10 +11,11 @@ div#market {
     box-shadow: 2px 2px 10px $dark-grey;
     padding: 4rem 1rem;
     i.fas.fa-store-alt {
+    box-shadow: 2px 2px 10px #212121;
     margin: -6.6rem 0 6rem 0;
     font-size: 40px;
     color: $blue;
-    background-color: $white;
+    background-color: white;
     padding: 1rem;
     }
     #market-dates {
@@ -28,7 +29,4 @@ div#visit-us {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-i.fa-store-alt {
-  font-size: 40px;
 }
