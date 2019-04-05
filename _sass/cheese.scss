@@ -8,6 +8,8 @@ div.product-slide {
   background-size: cover !important;
 }
 .product-details {
+  display: flex;
+  flex-direction: column;
   margin-top: 5rem;
   padding: 0 2rem;
   display: flex;
