@@ -53,6 +53,9 @@ img.product-image {
     border: solid 2px $blue;
     margin-bottom: 2rem;
   }
+  a:hover {
+    text-decoration: underline;
+  }
 }
 li.cheese-navigator {
   text-transform: uppercase;
