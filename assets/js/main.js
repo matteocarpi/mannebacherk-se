@@ -17,3 +17,5 @@ function quit(){
   links.style.display = 'none';
   quit.style.display = 'none';
 }
+
+// Smooth Scroll

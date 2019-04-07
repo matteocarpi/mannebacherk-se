@@ -13,9 +13,13 @@ layout: page
 
 <div class="sub-area">
   {% for item in item.list %}
-  <h2 class="red">{{ item.name }}</h2>
-  <img class="small-square"src="{{ item.image }}" alt="">
-  <p>{{ item.description }}</p>
+
+  <div id="" class="fodder-item" >
+    <h2 class="red">{{ item.name }}</h2>
+    <img class="small-square"src="{{ item.image }}" alt="">
+    <p>{{ item.description }}</p>
+  </div>
+
   {% endfor %}
 </div>
 {% endfor %}
