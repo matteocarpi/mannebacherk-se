@@ -25,8 +25,6 @@ sections:
     of fundamental importance for the success of our project. Through the years, there
     have been many people that helped us and with whom we have developed friendships.
     This is all that matters to us: when the local community recognises our effort
-    and passion, we are satisfied. Particularly, we owe our thoughts and gratitude
-    to Peter Büdinger, that unfortunately is not with us anymore. Since way before
-    the project started Peter and his family followed and helped us in every step.'
+    and passion, we are satisfied. '
 
 ---
