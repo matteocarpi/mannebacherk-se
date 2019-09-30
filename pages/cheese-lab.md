@@ -1,7 +1,7 @@
 ---
 layout: cheese-lab
 permalink: /cheese-laboratory
-title: The Cheese Laboratory
+title: Our Cheese
 image: /assets/img/cheese-home-title.jpg
 intro: The art of cheesemaking is an infinite universe and there is always something new to learn. We take a lot of inspiration from the Italian cheesmaking tradition. In crafting our cheese we look for semplicity and authenticity that leave space to the excellence of the raw material we use. Our offer of dairy products varies from the freshest and delicate cream cheeses to longer seasoned cheeses with more intense and sharper flavours.
 products:
@@ -103,7 +103,7 @@ products:
       - Sea Salt
     description: When Ricotta is too much (and in our opinion it is never enough) the small forms are rolled in salt and left to dry to enhance its preservation. The result is a sister product of the fresh Ricotta, also very renouned to be used on soups and pasta dishes.
   - name: Fresh Cream Cheese
-    anchor: fresh-cream-cheese
+    anchor: fresh-cream-
     image: /assets/img/products/caprino-main.jpg
     gallery:
       - /assets/img/products/gallery/caprino1.jpg

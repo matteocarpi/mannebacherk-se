@@ -16,12 +16,12 @@ markets:
   - Tuesday & Friday - 7am till 2pm
   - Wednesday - 4pm till 8pm
 - name: Wittlich
-  address: Am Bahnhof
+  address: Am Platz an der Lieser
   times:
   - Friday - 8am till 14.30pm
 - name: Mannebach
   address: |-
-    Im Reid
+    Im Ried
     54441 Mannebach
   times:
   - Saturday - 10am till 4pm
