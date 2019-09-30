@@ -15,10 +15,10 @@ markets:
   times:
   - Tuesday & Friday - 7am till 2pm
   - Wednesday - 4pm till 8pm
-- name: Traben Trarbach
+- name: Wittlich
   address: Am Bahnhof
   times:
-  - Thursday - 8am till 1pm
+  - Friday - 8am till 14.30pm
 - name: Mannebach
   address: |-
     Im Reid
@@ -26,7 +26,7 @@ markets:
   times:
   - Saturday - 10am till 4pm
 come-visit: We are everyday in Mannebach between the stable and the cheese laboratory.
-  If you have pleaseure to come and visit us you can buy our products on location.
+  If you have pleasure to come and visit us you can buy our products on location.
   Just drop as a line or give us a ring before you come :)
 
 ---
