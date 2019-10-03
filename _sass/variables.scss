@@ -21,6 +21,12 @@ $dark-grey: #212121;
   src: url("/assets/fonts/Campton Black.otf");
 }
 
+@font-face {
+  font-family: "SnellRoundhand";
+  src: url("/assets/fonts/SnellRoundhand.woff");
+}
+
 $Medium: Campton-Medium, Helvetica, sans-serif;
 $Bold: Campton-Bold, Helvetica, sans-serif;
 $Black: Campton-Black, Helvetica, sans-serif;
+$Quote: SnellRoundhand, Helvetica, sans-serif;

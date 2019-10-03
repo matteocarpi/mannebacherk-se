@@ -1,5 +1,15 @@
-.slide.home {
-  background: center / cover no-repeat url("/assets/img/cheese-home-title.jpg")
+.home {
+  background: center / cover no-repeat url("/assets/img/cheese-home-title.jpg");
+  height: 60vh;
+  display: flex;
+  align-items: center;;
+  justify-content: center;
+  .slogan {
+    font: 400% $Quote;
+    color: $red;
+    text-transform: none;
+    position: absolute;
+  }
 }
 .fb-video {
   margin-bottom: 2rem;
