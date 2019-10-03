@@ -3,14 +3,14 @@ layout: page
 ---
 <div id="markets">
 
-{% for item in page.markets %}
+{% for market in data.markets %}
 <div id="market">
   <i class="fas fa-store-alt"></i>
-  <h2 class="red">{{ item.name }}</h2>
-  <h3>{{ item.address }}</h3>
+  <h2 class="red">{{ market.name }}</h2>
+  <h3>{{ market.address }}</h3>
   <div id="market-dates">
-  {% for item in item.times %}
-  {{ item | markdownify }}
+  {% for market in market.times %}
+  {{ market | markdownify }}
   {% endfor %}
 </div>
 </div>

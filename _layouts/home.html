@@ -33,6 +33,25 @@ layout: default
 </div>
 {% endfor %}
 
+<h1 class="blue"> You'll find us in...</h1>
+
+<div id="markets">
+{% for market in site.data.markets %}
+  <div id="market">
+    <i class="fas fa-store-alt"></i>
+    <h2 class="red">{{ market.name }}</h2>
+    <h3>{{ market.address }}</h3>
+    <div id="market-dates">
+      {% for market in market.times %}
+      {{ market | markdownify }}
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}
+
+</div>
+
+
 <div id="contacts" class="blue-background">
 
   <h1 class="white">Contacts</h1>
