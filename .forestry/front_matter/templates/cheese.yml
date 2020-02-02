@@ -45,3 +45,5 @@ fields:
   - type: textarea
     name: description
     label: Description
+pages:
+- pages/EN/cheese-lab.md
