@@ -3,28 +3,22 @@ layout: page
 ---
 <div id="markets">
 
-{% if page.lang == 'en' %}
+  {% if page.lang == 'en' %}
 
-  {% assign lang = markets-en %}
-  
-{% else %}
+    {% for market in site.data.markets-en %}
+      <div id="market">
 
-  {% assign markets = markets-de %}
-
-{% endif %}
-
-{% for market in markets %}
-<div id="market">
-  <i class="fas fa-store-alt"></i>
-  <h2 class="red">{{ market.name }}</h2>
-  <h3>{{ market.address }}</h3>
-  <div id="market-dates">
-    {% for market in market.times %}
-    {{ market | markdownify }}
+        <i class="fas fa-store-alt"></i>
+        <h2 class="red">{{ market.name }}</h2>
+        <h3>{{ market.address }}</h3>
+        <div id="market-dates">
+          {% for market in market.times %}
+          {{ market | markdownify }}
+          {% endfor %}
+        </div>
+        
+      </div>
     {% endfor %}
-  </div>
-</div>
-{% endfor %}
 
 </div>
 
@@ -33,3 +27,30 @@ layout: page
   <p>{{ page.come-visit }}</p>
   <a class="cta red-background"href="/#contacts">Contact Us</a>
 </div>
+
+{% else %}
+
+  {% for market in site.data.markets-de %}
+    <div id="market">
+
+      <i class="fas fa-store-alt"></i>
+      <h2 class="red">{{ market.name }}</h2>
+      <h3>{{ market.address }}</h3>
+      <div id="market-dates">
+        {% for market in market.times %}
+        {{ market | markdownify }}
+        {% endfor %}
+      </div>
+      
+    </div>
+  {% endfor %}
+
+  </div>
+
+  <div id="visit-us" class="">
+  <img class="logo-small" src="{{ site.logo }}" alt="">
+  <p>{{ page.come-visit }}</p>
+  <a class="cta red-background"href="/#contacts">Contact Us</a>
+  </div>
+
+{% endif %}

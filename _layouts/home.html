@@ -35,19 +35,53 @@ layout: default
 
 <h1 class="blue"> You'll find us in...</h1>
 
+
 <div id="markets">
-{% for market in site.data.markets %}
-  <div id="market">
-    <i class="fas fa-store-alt"></i>
-    <h2 class="red">{{ market.name }}</h2>
-    <h3>{{ market.address }}</h3>
-    <div id="market-dates">
-      {% for market in market.times %}
-      {{ market | markdownify }}
-      {% endfor %}
+  {% if page.lang == 'en' %}
+
+    {% for market in site.data.markets-en %}
+      <div id="market">
+
+        <i class="fas fa-store-alt"></i>
+        <h2 class="red">{{ market.name }}</h2>
+        <h3>{{ market.address }}</h3>
+        <div id="market-dates">
+          {% for market in market.times %}
+          {{ market | markdownify }}
+          {% endfor %}
+        </div>
+        
+      </div>
+    {% endfor %}
+
+</div>
+
+{% else %}
+
+  {% for market in site.data.markets-de %}
+    <div id="market">
+
+      <i class="fas fa-store-alt"></i>
+      <h2 class="red">{{ market.name }}</h2>
+      <h3>{{ market.address }}</h3>
+      <div id="market-dates">
+        {% for market in market.times %}
+        {{ market | markdownify }}
+        {% endfor %}
+      </div>
+      
     </div>
+  {% endfor %}
+
   </div>
-{% endfor %}
+
+  <div id="visit-us" class="">
+  <img class="logo-small" src="{{ site.logo }}" alt="">
+  <p>{{ page.come-visit }}</p>
+  <a class="cta red-background"href="/#contacts">Contact Us</a>
+  </div>
+
+{% endif %}
 
 </div>
 
