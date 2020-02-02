@@ -5,6 +5,17 @@ admin_path:
 webhook_url: 
 sections:
 - type: heading
+  label: DEUTSCH
+- type: document
+  path: _data/markets-de
+  label: Märkte
+  match: "**/*"
+- type: directory
+  path: pages/DE
+  label: Seiten
+  create: none
+  match: "**/*"
+- type: heading
   label: ENGLISH
 - type: document
   path: _data/navigation-en.yml
