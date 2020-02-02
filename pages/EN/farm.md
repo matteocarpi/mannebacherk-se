@@ -1,5 +1,6 @@
 ---
 layout: farm
+lang: en
 permalink: "/the-farm"
 title: The Farm
 image: "/assets/img/goats-in-field.jpg"

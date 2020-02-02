@@ -1,5 +1,6 @@
 ---
 layout: home
+lang: en
 title: Home
 permalink: "/"
 image: "/assets/img/cheese-home-title.jpg"

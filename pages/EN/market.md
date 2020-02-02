@@ -1,5 +1,6 @@
 ---
 layout: market
+lang: en
 title: Market
 permalink: "/market"
 image: "/assets/img/market-van-mannebacherkaese.jpg"

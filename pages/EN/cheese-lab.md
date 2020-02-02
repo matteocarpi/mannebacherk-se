@@ -1,5 +1,6 @@
 ---
 layout: cheese-lab
+lang: en
 permalink: /cheese-laboratory
 title: Our Cheese
 image: /assets/img/cheese-home-title.jpg
