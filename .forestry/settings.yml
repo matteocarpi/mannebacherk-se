@@ -7,9 +7,12 @@ sections:
 - type: heading
   label: DEUTSCH
 - type: document
-  path: _data/markets-de
-  label: Märkte
+  path: _data/navigation-de.yml
+  label: Menu
   match: "**/*"
+- type: document
+  path: _data/markets-de.yml
+  label: Märkte
 - type: directory
   path: pages/DE
   label: Seiten
