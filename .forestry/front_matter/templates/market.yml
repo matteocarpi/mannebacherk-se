@@ -5,21 +5,33 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: lang
   label: lang
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: permalink
   label: permalink
+  hidden: true
 - type: file
   name: image
   label: image
+  hidden: true
 - type: textarea
   name: intro
-  label: intro
+  label: Intro
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: textarea
   name: come-visit
-  label: come-visit
+  label: Come Visit
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
