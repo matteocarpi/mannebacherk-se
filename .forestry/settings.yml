@@ -6,6 +6,14 @@ webhook_url:
 sections:
 - type: heading
   label: ENGLISH
+- type: document
+  path: _data/navigation-en.yml
+  label: Menu
+  match: "**/*"
+- type: document
+  path: _data/markets-en.yml
+  label: Markets
+  match: "**/*"
 - type: directory
   path: pages/EN
   label: Pages
