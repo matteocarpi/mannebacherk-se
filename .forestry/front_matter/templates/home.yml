@@ -1,0 +1,35 @@
+---
+label: Home
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: lang
+  label: lang
+- type: text
+  name: title
+  label: title
+- type: text
+  name: permalink
+  label: permalink
+- type: file
+  name: image
+  label: image
+- type: field_group_list
+  name: sections
+  label: sections
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: photo
+    label: photo
+  - type: textarea
+    name: intro
+    label: intro
+  - type: boolean
+    name: more
+    label: more
