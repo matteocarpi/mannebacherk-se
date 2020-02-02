@@ -1,0 +1,32 @@
+<div id="header">
+<a href="/"><img class="logo-small" src="{{ site.logo }}" alt=""></a>
+
+  <nav id="navigation-desktop">
+      {% for item in site.data.navigation-en %}
+
+        <a
+        {% if item.link == page.url %}
+          class="active"
+        {% endif %}
+
+        href="{{ item.link }}">{{ item.name }}</a>
+
+      {% endfor %}
+  </nav>
+
+  <div id="mobile-menu">
+
+    <i id="burger" class="material-icons" onclick="burger()">menu</i>
+    <i id="quit" class="material-icons" onclick="quit()">clear</i>
+
+    <div id="links">
+      <img class="logo-icon" src="{{ site.logo-icon }}" alt="">
+      {% for item in site.data.navigation-en %}
+
+      <a id="menu-item" href="{{ item.link }}" onclick="quit()">{{ item.name }}</a>
+
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
