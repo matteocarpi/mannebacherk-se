@@ -1,7 +1,7 @@
 ---
 layout: market
 lang: de
-title: Market
+title: Markt
 permalink: "/de/market"
 image: "/assets/img/market-van-mannebacherkaese.jpg"
 intro: We love the contact with our customers. We believe closing the circle of food

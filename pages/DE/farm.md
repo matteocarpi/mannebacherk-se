@@ -2,7 +2,7 @@
 layout: farm
 lang: de
 permalink: "/de/the-farm"
-title: The Farm
+title: Hof
 image: "/assets/img/goats-in-field.jpg"
 intro: In our farm we make an effort to respect nature's rythms. We have a livestock
   of 80 goats, 2 billygoats and a dog. The well being of our animals is our number

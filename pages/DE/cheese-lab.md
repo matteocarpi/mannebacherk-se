@@ -2,7 +2,7 @@
 layout: cheese-lab
 lang: de
 permalink: "/de/cheese-laboratory"
-title: Our Cheese
+title: Unsere Käse
 image: "/assets/img/cheese-home-title.jpg"
 intro: The art of cheesemaking is an infinite universe and there is always something
   new to learn. We take a lot of inspiration from the Italian cheesmaking tradition.
