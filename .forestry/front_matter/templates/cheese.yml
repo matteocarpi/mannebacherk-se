@@ -1,0 +1,44 @@
+---
+label: Cheese
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: lang
+  label: lang
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- type: textarea
+  name: intro
+  label: intro
+- type: field_group_list
+  name: products
+  label: products
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: anchor
+    label: anchor
+  - type: file
+    name: image
+    label: image
+  - type: image_gallery
+    name: gallery
+    label: gallery
+  - type: list
+    name: ingredients
+    label: ingredients
+  - type: textarea
+    name: description
+    label: description
