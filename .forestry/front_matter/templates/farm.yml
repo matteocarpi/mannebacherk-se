@@ -26,7 +26,6 @@ fields:
   label: Intro
 - type: field_group_list
   name: areas
-  label: areas
   fields:
   - type: text
     name: title
@@ -56,5 +55,8 @@ fields:
       label: image
       hidden: true
     label: Fodder
+  label: Elements
+  config:
+    labelField: title
 pages:
 - pages/EN/farm.md
