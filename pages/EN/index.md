@@ -27,5 +27,6 @@ sections:
     have been many people that helped us and with whom we have developed friendships.
     This is all that matters to us: when the local community recognises our effort
     and passion, we are satisfied. '
+  more: false
 
 ---

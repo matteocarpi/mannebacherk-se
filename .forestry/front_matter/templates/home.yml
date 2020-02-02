@@ -39,3 +39,5 @@ fields:
     name: more
     label: more
     hidden: true
+pages:
+- pages/EN/index.md
