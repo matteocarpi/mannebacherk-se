@@ -6,9 +6,11 @@ webhook_url:
 sections:
 - type: heading
   label: ENGLISH
-- type: jekyll-pages
+- type: directory
+  path: pages/EN
   label: Pages
   create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
