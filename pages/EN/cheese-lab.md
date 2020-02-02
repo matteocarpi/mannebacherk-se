@@ -1,7 +1,7 @@
 ---
 layout: cheese-lab
 lang: en
-permalink: /cheese-laboratory
+permalink: /en/cheese-laboratory
 title: Our Cheese
 image: /assets/img/cheese-home-title.jpg
 intro: The art of cheesemaking is an infinite universe and there is always something new to learn. We take a lot of inspiration from the Italian cheesmaking tradition. In crafting our cheese we look for semplicity and authenticity that leave space to the excellence of the raw material we use. Our offer of dairy products varies from the freshest and delicate cream cheeses to longer seasoned cheeses with more intense and sharper flavours.

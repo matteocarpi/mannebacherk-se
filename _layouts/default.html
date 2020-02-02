@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang={{ page.lang }} dir="ltr">
   {% include head.html %}
   <body>
-      {% include header.html %}
+      {% if page.lang == 'en' %}
+      {% include header-en.html %}
+      {% else %}
+      {% include header-de.html %}
+      {% endif%}
       {{ content }}
       {% include footer.html %}
       {% include js.html %}

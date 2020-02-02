@@ -1,7 +1,7 @@
 ---
 layout: farm
 lang: en
-permalink: "/the-farm"
+permalink: "/en/the-farm"
 title: The Farm
 image: "/assets/img/goats-in-field.jpg"
 intro: In our farm we make an effort to respect nature's rythms. We have a livestock

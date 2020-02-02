@@ -2,7 +2,7 @@
 layout: market
 lang: en
 title: Market
-permalink: "/market"
+permalink: "/en/market"
 image: "/assets/img/market-van-mannebacherkaese.jpg"
 intro: We love the contact with our customers. We believe closing the circle of food
   production and taking care of our product from the field to your table has an extreme
