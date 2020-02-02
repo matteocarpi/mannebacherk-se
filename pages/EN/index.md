@@ -4,6 +4,7 @@ lang: en
 title: Home
 permalink: "/en"
 image: "/assets/img/cheese-home-title.jpg"
+slogan: "From the field to your table"
 intro: |-
   We are a goats farm in Kümmern, on the hills of Mannebach. We put together natural farming and our heritage of Italian cheese-making.
 

@@ -13,6 +13,9 @@ fields:
 - type: text
   name: title
   label: Title
+- type: text
+  name: slogan
+  label: Slogan
 - type: textarea
   name: intro
   label: Intro
