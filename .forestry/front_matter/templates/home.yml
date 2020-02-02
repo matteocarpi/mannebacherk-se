@@ -13,6 +13,9 @@ fields:
 - type: text
   name: title
   label: Title
+- type: textarea
+  name: intro
+  label: Intro
 - type: text
   name: permalink
   label: permalink

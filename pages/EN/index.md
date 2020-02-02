@@ -4,6 +4,10 @@ lang: en
 title: Home
 permalink: "/"
 image: "/assets/img/cheese-home-title.jpg"
+intro: |-
+  We are a goats farm in Kümmern, on the hills of Mannebach. We put together natural farming and our heritage of Italian cheese-making.
+
+  The result is a variety of cheese of which we are very fond and we hope one day you'll love them too.
 sections:
 - title: The Farm
   photo: "/assets/img/goats-in-field.jpg"
