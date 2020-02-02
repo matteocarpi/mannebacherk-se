@@ -37,8 +37,8 @@ fields:
     label: Image
   - type: image_gallery
     name: gallery
-    label: gallery
-    hidden: true
+    label: Gallery
+    hidden: false
   - type: list
     name: ingredients
     label: Ingredients
