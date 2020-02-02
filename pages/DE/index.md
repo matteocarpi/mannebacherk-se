@@ -1,8 +1,8 @@
 ---
 layout: home
-lang: en
+lang: de
 title: Home
-permalink: "/en"
+permalink: "/"
 image: "/assets/img/cheese-home-title.jpg"
 intro: |-
   We are a goats farm in Kümmern, on the hills of Mannebach. We put together natural farming and our heritage of Italian cheese-making.
