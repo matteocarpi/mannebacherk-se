@@ -2,6 +2,7 @@
 <html lang={{ page.lang }} dir="ltr">
   {% include head.html %}
   <body>
+
       {% if page.lang == 'en' %}
       {% include header-en.html %}
       {% else %}
@@ -10,5 +11,6 @@
       {{ content }}
       {% include footer.html %}
       {% include js.html %}
+      
   </body>
 </html>
