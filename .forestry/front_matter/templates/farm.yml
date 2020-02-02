@@ -56,3 +56,5 @@ fields:
       label: image
       hidden: true
     label: Fodder
+pages:
+- pages/EN/farm.md

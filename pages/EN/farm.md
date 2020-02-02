@@ -51,6 +51,7 @@ areas:
     a various wooden structures allowing the animals to make some phisical excercise
     and to take repair from their more combative sisters. The abbundant use of straw
     ensures a comfortable, warm and dry bed.
+  list: []
 - title: Human Contact
   icon: fa-heart
   image: "/assets/img/human-contact-goat.jpg"
@@ -58,5 +59,6 @@ areas:
     with all animals. Every day, twice a day, whilst milking, we have the chance to
     monitor the health state of each goat, taking care of their diverse needs and
     promptly intervening when needed.
+  list: []
 
 ---
