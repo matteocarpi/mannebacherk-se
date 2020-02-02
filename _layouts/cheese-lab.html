@@ -2,7 +2,7 @@
 layout: page
 ---
 {% for item in page.products %}
-<div id="{{ item.anchor }}" class="product-slide" style="background: url({{ item.image }})">
+<div id="{{ item.name | slugify }}" class="product-slide" style="background: url({{ item.image }})">
   <h1 class="blue">{{ item.name }}</h1>
 </div>
 

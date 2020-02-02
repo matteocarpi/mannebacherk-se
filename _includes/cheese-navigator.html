@@ -1,5 +1,5 @@
 {% for item in page.products %}
 
-  <a href="{{ page.url }}#{{ item.anchor }}">{{ item.name }}</a>
+  <a href="{{ page.url }}#{{ item.name | slugify }}">{{ item.name }}</a>
 
 {% endfor %}
