@@ -2,7 +2,7 @@
 layout: home-de
 lang: de
 title: Home
-permalink: "/"
+permalink: "/de"
 image: "/assets/img/cheese-home-title.jpg"
 slogan: "From the field to your table"
 about_title: "What do we do?"
