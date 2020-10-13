@@ -30,3 +30,12 @@ div#visit-us {
   flex-direction: column;
   align-items: center;
 }
+
+a.market-wrap {
+  text-decoration: none;
+  &:focused {
+    div {
+      outline: none;
+    }
+  }
+}

@@ -1,15 +1,15 @@
 - name: Trier
+  coords: https://goo.gl/maps/We74cdu7hFvdEZjCA
   address: Viehmarktplatz
   times:
   - Tuesday & Friday - 7am till 2pm
-  - Wednesday - 4pm till 8pm
-- name: Wittlich
-  address: Am Platz an der Lieser
+- name: Perl
+  address: ''
   times:
-  - Friday - 8am till 14.30pm
+  - Sabato - 9am till 2pm
 - name: Mannebach
+  coords: https://goo.gl/maps/vWVaT5Baf8UoS6Vg8
   address: |-
-    Im Ried
-    54441 Mannebach
+    Im Reid
   times:
-  - Saturday - 10am till 4pm
+  - Saturday - 10am till 16pm
