@@ -2,7 +2,7 @@
   background: center / cover no-repeat url("/assets/img/cheese-home-title.jpg");
   height: 60vh;
   display: flex;
-  align-items: center;;
+  align-items: center;
   justify-content: center;
   .slogan {
     font: 400% $Quote;
@@ -16,22 +16,22 @@
 }
 #contacts {
   width: 100%;
- * {
-   color: $white;
- }
- .contact-in-wrap {
-   margin: 4rem auto;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   max-width: 1000px;
- }
- p {
-   text-align: center;
- }
- h1 {
-   margin: 1rem auto;
- }
+  * {
+    color: $white;
+  }
+  .contact-in-wrap {
+    margin: 4rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+  }
+  p {
+    text-align: center;
+  }
+  h1 {
+    margin: 1rem auto;
+  }
 }
 #contact-details {
   display: flex;
@@ -52,4 +52,8 @@ div#welcome {
 }
 #contacts {
   padding: 2rem 0;
+}
+
+.offer {
+  margin-top: 4rem;
 }
