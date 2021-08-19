@@ -3,10 +3,6 @@
   address: Viehmarktplatz
   times:
   - Tuesday & Friday - 7am till 2pm
-- name: Perl
-  address: ''
-  times:
-  - Saturday - 9am till 2pm
 - name: Mannebach
   coords: https://goo.gl/maps/vWVaT5Baf8UoS6Vg8
   address: |-
